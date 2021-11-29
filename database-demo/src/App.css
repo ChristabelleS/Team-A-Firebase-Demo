@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.demo-button {
+  font-family: Inter;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 300px;
+}
+
+.demo-button:hover {
+  background-color: white;
+  color: #282c34;
+  border: 1px solid #282c34;
+}
+
+#button-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.output {
+  border-color: white;
+  font-family: Inter;
+  padding: 10px;
+  margin: 10%;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.crud-container {
+  background: rgb(243, 243, 243);
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px 20px;
+  width: 350px;
+}
+
+h2 {
+  font-family: "Inter";
+  text-align: center;
+}
+
+.crud-emphasised-letter {
+  font-size: 35px;
+}
+
+.border{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.output-header {
+  color: white;
+  font-family: "Inter";
+  text-align: center;
+}
